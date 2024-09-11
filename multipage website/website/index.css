@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    background-color: aquamarine;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    height: 10px;
+}
+.navbar__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbarlogo{
+    display: flex;
+    margin-top: 20px
+}
+.navbartext{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 20px ;
+}
+.navbarmenu{
+    display: flex;
+    gap: 25px;
+}
+.navbarmenu1{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: large;
+}
+.navbarmenu2{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: large;
+}
+.navbarmenu3{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: large;
+}
+.navbarmenu4{
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+}
+.sectionOne{
+    height: 400px;
+    display: flex
+}
+.sectionOneleft{
+    width: 80%;
+    height: 450px;
+}
+.textwhite{
+    color: white;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: x-large;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.titletext{
+    color: white;
+    margin-left: 250px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+.text{
+    margin-left: 250px;
+    margin-top: 5px;
+    color: white;
+    font-size: medium;
+}
+.explorebutton{
+    margin-left: 250px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 10%;
+    border: 0;
+}
+.sectionimage{
+    display: flex;
+    margin-right: 100px;
+    height: 300px;
+    margin-top: 50px;
+}
+.title1{
+    justify-content: center;
+    width: 100%; 
+}
+.texttitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+.titletext1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: xx-large;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+.learnmorebutton{
+    margin-left: 600px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 15%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.sectionthree{
+    display: flex;
+    margin-top: 40px;
+}
+.homeimage1{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-left: 200px;
+}
+.sectionthree1{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.sectiontwotitle{
+    font-size: xx-large;
+}
+.text2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.explorebutton1{
+    padding: 10px;
+    width: 30%;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectionfour{
+    margin-top: 20px;
+    display: flex;
+}
+.titletext3{
+    margin-left: 200px;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+.text3{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.expolrebutton2{
+    margin-left: 200px;
+    padding: 10px;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.homeimage3{
+    margin-right: 100px;
+    height: 500px;
+    display: flex;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.ourteam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
+.sectionfivecontent{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.teams{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.member1{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px 11px rgb(238, 235, 235);
+    border-radius: 5px;
+    padding: 20px 25px;
+    gap: 15px;
+}
+.name{
+    font-size: large;
+    font-weight: bold;
+}
+.position{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.member2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px 11px rgb(238, 235, 235);
+    border-radius: 5px;
+    padding: 20px 25px;
+    gap: 15px;
+}
+.member3{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px 11px rgb(238, 235, 235);
+    border-radius: 5px;
+    padding: 20px 25px;
+    gap: 15px;
+}
+.member4{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px 11px rgb(238, 235, 235);
+    border-radius: 5px;
+    padding: 20px 25px;
+    gap: 15px;
+}
+.teambutton{
+    display: flex;
+    justify-content: center;
+}
+.viewteambutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 10%;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: aquamarine;
+    height: 100px;
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.socialmedia img{
+    margin-top: 30px;
+    height: 30px;
+}
+.copyright{
+    color: white;
+    display: flex;
+    font-size: x-large;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
